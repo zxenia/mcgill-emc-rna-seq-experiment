@@ -221,7 +221,12 @@
         "value": "MB"
       },
       "access": {
-        "landingPage": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/"
+        "landingPage": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
       }
     }
   ],
