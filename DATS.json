@@ -17,7 +17,8 @@
   "types": [
     {
       "information": {
-        "value": "epigenomics"
+        "value": "Epigenomics",
+        "valueIRI": "http://uri.neuinfo.org/nif/nifstd/nlx_151797"
       }
     }
   ],
@@ -116,7 +117,8 @@
     }
   ],
   "storedIn": {
-    "name": "IHEC data portal"
+    "name": "IHEC data portal",
+    "description": "https://epigenomesportal.ca/ihec/"
   },
   "hasPart": [
     {
@@ -128,6 +130,25 @@
         }
       ],
       "version": "1.0",
+      "distributions": [
+        {
+          "formats": [
+            "bigWig"
+          ],
+          "size": 228,
+          "unit": {
+            "value": "MB"
+          },
+          "access": {
+            "landingPage": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51570.CEEHRC.MS002001.RNA-Seq.signal_forward.bigWig",
+            "authorizations": [
+              {
+                "value": "public"
+              }
+            ]
+          }
+        }
+      ],
       "creators": [
         {
           "name": "McGill EMC"
@@ -141,8 +162,8 @@
         }
       ],
       "storedIn": {
-        "name": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51570.CEEHRC.MS002001.RNA-Seq.signal_forward.bigWig",
-        "description": ".bigWig file"
+        "name": "IHEC Data Portal",
+        "description": "https://epigenomesportal.ca/ihec/"
       },
       "keywords": [
         {
@@ -150,6 +171,32 @@
         },
         {
           "value": "bigWig"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "files",
+          "values": [
+            {
+              "value": 1
+            }
+          ]
+        },
+        {
+          "category": "subjects",
+          "values": [
+            {
+              "value": 1
+            }
+          ]
+        },
+        {
+          "category": "CONP_status",
+          "values": [
+            {
+              "value": "Canadian"
+            }
+          ]
         }
       ]
     },
@@ -162,6 +209,25 @@
         }
       ],
       "version": "1.0",
+      "distributions": [
+        {
+          "formats": [
+            "bigWig"
+          ],
+          "size": 228,
+          "unit": {
+            "value": "MB"
+          },
+          "access": {
+            "landingPage": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51571.CEEHRC.MS002001.RNA-Seq.signal_reverse.bigWig",
+            "authorizations": [
+              {
+                "value": "public"
+              }
+            ]
+          }
+        }
+      ],
       "creators": [
         {
           "name": "McGill EMC"
@@ -175,8 +241,8 @@
         }
       ],
       "storedIn": {
-        "name": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51571.CEEHRC.MS002001.RNA-Seq.signal_reverse.bigWig",
-        "description": ".bigWig file"
+        "name": "IHEC Data portal",
+        "description": "https://epigenomesportal.ca/ihec/"
       },
       "keywords": [
         {
@@ -184,6 +250,32 @@
         },
         {
           "value": "bigWig"
+        }
+      ],
+      "extraProperties": [
+        {
+          "category": "files",
+          "values": [
+            {
+              "value": 1
+            }
+          ]
+        },
+        {
+          "category": "subjects",
+          "values": [
+            {
+              "value": 1
+            }
+          ]
+        },
+        {
+          "category": "CONP_status",
+          "values": [
+            {
+              "value": "Canadian"
+            }
+          ]
         }
       ]
     }
@@ -452,6 +544,30 @@
     }
   ],
   "extraProperties": [
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": 2
+        }
+      ]
+    },
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": 1
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "Canadian"
+        }
+      ]
+    },
     {
       "category": "Raw data url",
       "values": [

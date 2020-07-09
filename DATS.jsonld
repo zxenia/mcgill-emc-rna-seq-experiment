@@ -117,14 +117,17 @@
   "description": "The RNA-seq experiment from human brain sample. The donor is 42 years old healthy male individual. Biomaterial type is primary tissue with tissue type Brodmann (1909) area 11 (http://purl.obolibrary.org/obo/UBERON_0013528). ",
   "dates": [
     {
+      "@type": "Date",
       "date": "2020-01-22 00:00:00",
       "type": {
+        "@type": "Annotation",
         "value": "CONP DATS file creation date"
       }
     }
   ],
   "creators": [
     {
+      "@type": "Organization",
       "name": "McGill EMC"
     }
   ],
@@ -133,7 +136,8 @@
       "@type": "DataType",
       "information": {
         "@type": "Annotation",
-        "value": "epigenomics"
+        "value": "Epigenomics",
+        "valueIRI": "http://uri.neuinfo.org/nif/nifstd/nlx_151797"
       }
     }
   ],
@@ -154,6 +158,7 @@
           "category": "donor_age",
           "values": [
             {
+              "@type": "Annotation",
               "value": "42"
             }
           ]
@@ -163,6 +168,7 @@
           "category": "donor_age_unit",
           "values": [
             {
+              "@type": "Annotation",
               "value": "year"
             }
           ]
@@ -172,6 +178,7 @@
           "category": "donor_sex",
           "values": [
             {
+              "@type": "Annotation",
               "value": "Male"
             }
           ]
@@ -182,6 +189,7 @@
       "@type": "Disease",
       "name": "Healthy",
       "diseaseStatus": {
+        "@type": "Annotation",
         "value": "C115935",
         "valueIRI": "http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C115935&ns=NCI_Thesaurus"
       }
@@ -194,6 +202,7 @@
           "@type": "Material",
           "name": "Brodmann (1909) area 11",
           "identifier": {
+            "@type": "Identifier",
             "identifier": "UBERON:0013528",
             "identifierSource": "http://purl.obolibrary.org/obo/UBERON_0013528"
           },
@@ -202,6 +211,7 @@
               "@type": "Material",
               "name": "brain",
               "identifier": {
+                "@type": "Identifier",
                 "identifier": "UBERON:0000955",
                 "identifierSource": "http://purl.obolibrary.org/obo/UBERON_0000955"
               }
@@ -218,12 +228,14 @@
       ],
       "size": 457,
       "unit": {
+        "@type": "Annotation",
         "value": "MB"
       },
       "access": {
         "landingPage": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/",
         "authorizations": [
           {
+            "@type": "Annotation",
             "value": "public"
           }
         ]
@@ -238,7 +250,8 @@
   ],
   "storedIn": {
     "@type": "DataRepository",
-    "name": "IHEC data portal"
+    "name": "IHEC data portal",
+    "description": "https://epigenomesportal.ca/ihec/"
   },
   "hasPart": [
     {
@@ -251,6 +264,28 @@
         }
       ],
       "version": "1.0",
+      "distributions": [
+        {
+          "@type": "DatasetDistribution",
+          "formats": [
+            "bigWig"
+          ],
+          "size": 228,
+          "unit": {
+            "@type": "Annotation",
+            "value": "MB"
+          },
+          "access": {
+            "landingPage": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51570.CEEHRC.MS002001.RNA-Seq.signal_forward.bigWig",
+            "authorizations": [
+              {
+                "@type": "Annotation",
+                "value": "public"
+              }
+            ]
+          }
+        }
+      ],
       "creators": [
         {
           "@type": "Organization",
@@ -268,8 +303,8 @@
       ],
       "storedIn": {
         "@type": "DataRepository",
-        "name": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51570.CEEHRC.MS002001.RNA-Seq.signal_forward.bigWig",
-        "description": ".bigWig file"
+        "name": "IHEC Data Portal",
+        "description": "https://epigenomesportal.ca/ihec/"
       },
       "keywords": [
         {
@@ -279,6 +314,38 @@
         {
           "@type": "Annotation",
           "value": "bigWig"
+        }
+      ],
+      "extraProperties": [
+        {
+          "@type": "CategoryValuesPair",
+          "category": "files",
+          "values": [
+            {
+              "@type": "Annotation",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "@type": "CategoryValuesPair",
+          "category": "subjects",
+          "values": [
+            {
+              "@type": "Annotation",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "@type": "CategoryValuesPair",
+          "category": "CONP_status",
+          "values": [
+            {
+              "@type": "Annotation",
+              "value": "Canadian"
+            }
+          ]
         }
       ]
     },
@@ -292,6 +359,27 @@
         }
       ],
       "version": "1.0",
+      "distributions": [
+        {
+          "@type": "DatasetDistribution",
+          "formats": [
+            "bigWig"
+          ],
+          "size": 228,
+          "unit": {
+            "@type": "Annotation",
+            "value": "MB"
+          },
+          "access": {
+            "landingPage": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51571.CEEHRC.MS002001.RNA-Seq.signal_reverse.bigWig",
+            "authorizations": [
+              {
+                "value": "public"
+              }
+            ]
+          }
+        }
+      ],
       "creators": [
         {
           "@type": "Organization",
@@ -309,8 +397,8 @@
       ],
       "storedIn": {
         "@type": "DataRepository",
-        "name": "https://epigenomesportal.ca/tracks/CEEHRC/hg19/51571.CEEHRC.MS002001.RNA-Seq.signal_reverse.bigWig",
-        "description": ".bigWig file"
+        "name": "IHEC Data portal",
+        "description": "https://epigenomesportal.ca/ihec/"
       },
       "keywords": [
         {
@@ -321,6 +409,38 @@
           "@type": "Annotation",
           "value": "bigWig"
         }
+      ],
+      "extraProperties": [
+        {
+          "@type": "CategoryValuesPair",
+          "category": "files",
+          "values": [
+            {
+              "@type": "Annotation",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "@type": "CategoryValuesPair",
+          "category": "subjects",
+          "values": [
+            {
+              "@type": "Annotation",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "@type": "CategoryValuesPair",
+          "category": "CONP_status",
+          "values": [
+            {
+              "@type": "Annotation",
+              "value": "Canadian"
+            }
+          ]
+        }
       ]
     }
   ],
@@ -328,6 +448,7 @@
     "@type": "DataAcquisition",
     "name": "RNA-seq",
     "identifier": {
+      "@type": "Identifier",
       "identifier": "OBI:0001271",
       "identifierSource": "http://purl.obolibrary.org/obo/OBI_0001271"
     },
@@ -345,6 +466,7 @@
         "category": "amplified",
         "values": [
           {
+            "@type": "Annotation",
             "value": "1"
           }
         ]
@@ -354,6 +476,7 @@
         "category": "extraction_protocol",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Tissue samples in TRIzol (Invitrogen) were disrupted using a POLYTRON machine. Total RNA from cells and tissues were extracted using miRNeasy kit (including a DNaseI treatment step) and quality assessed by Agilent 2100 BioAnalyzer (Agilent Technologies)."
           }
         ]
@@ -363,6 +486,7 @@
         "category": "extraction_protocol_fragmentation",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -372,6 +496,7 @@
         "category": "extraction_protocol_mrna_enrichment",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -381,6 +506,7 @@
         "category": "library_generation_3'_adapter_sequence",
         "values": [
           {
+            "@type": "Annotation",
             "value": "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT"
           }
         ]
@@ -390,6 +516,7 @@
         "category": "library_generation_5'_adapter_sequence",
         "values": [
           {
+            "@type": "Annotation",
             "value": "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"
           }
         ]
@@ -399,6 +526,7 @@
         "category": "library_generation_fragment_size_range",
         "values": [
           {
+            "@type": "Annotation",
             "value": "~200bp"
           }
         ]
@@ -408,6 +536,7 @@
         "category": "library_generation_fragmentation",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Fragmentation by temperature (default) as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -417,6 +546,7 @@
         "category": "library_generation_pcr_f_primer_sequence",
         "values": [
           {
+            "@type": "Annotation",
             "value": "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -426,6 +556,7 @@
         "category": "library_generation_pcr_number_cycles",
         "values": [
           {
+            "@type": "Annotation",
             "value": "12 cycles"
           }
         ]
@@ -435,6 +566,7 @@
         "category": "library_generation_pcr_polymerase_type",
         "values": [
           {
+            "@type": "Annotation",
             "value": "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -444,6 +576,7 @@
         "category": "library_generation_pcr_primer_conc",
         "values": [
           {
+            "@type": "Annotation",
             "value": "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -453,6 +586,7 @@
         "category": "library_generation_pcr_product_isolation_protocol",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Magnetic Bead-mediated PCR product purification as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -462,6 +596,7 @@
         "category": "library_generation_pcr_r_primer_sequence",
         "values": [
           {
+            "@type": "Annotation",
             "value": "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -471,15 +606,17 @@
         "category": "library_generation_pcr_template_conc",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
       },
       {
-        "category": "library_generation_pcr_thermocycling_program",
         "@type": "CategoryValuesPair",
+        "category": "library_generation_pcr_thermocycling_program",
         "values": [
           {
+            "@type": "Annotation",
             "value": "As described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -489,6 +626,7 @@
         "category": "library_generation_protocol",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -498,6 +636,7 @@
         "category": "mrna_preparation_fragment_size_range",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -507,6 +646,7 @@
         "category": "preparation_initial_mrna_qnty",
         "values": [
           {
+            "@type": "Annotation",
             "value": "500ng"
           }
         ]
@@ -516,6 +656,7 @@
         "category": "preparation_pcr_number_cycles",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -525,6 +666,7 @@
         "category": "preparation_reverse_transcription_protocol",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Reverse transcription carried out as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -534,6 +676,7 @@
         "category": "rna_preparation_3'_rna adapter_ligation_protocol",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -543,6 +686,7 @@
         "category": "rna_preparation_3'_rna_adapter_sequence",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Random hexamers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -552,6 +696,7 @@
         "category": "rna_preparation_5'_dephosphorylation",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -561,6 +706,7 @@
         "category": "rna_preparation_5'_phosphorylation",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -570,6 +716,7 @@
         "category": "rna_preparation_5'_rna_adapter_ligation_protocol",
         "values": [
           {
+            "@type": "Annotation",
             "value": "NA"
           }
         ]
@@ -579,6 +726,7 @@
         "category": "rna_preparation_5'_rna_adapter_sequence",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Random primers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -588,6 +736,7 @@
         "category": "rna_preparation_reverse_transcription_primer_sequence",
         "values": [
           {
+            "@type": "Annotation",
             "value": "Random primers as described in the Illumina TruSeq Stranded Total RNA Sample Prep Guide."
           }
         ]
@@ -597,6 +746,7 @@
         "category": "template_type",
         "values": [
           {
+            "@type": "Annotation",
             "value": "cDNA"
           }
         ]
@@ -624,9 +774,40 @@
   "extraProperties": [
     {
       "@type": "CategoryValuesPair",
+      "category": "files",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "subjects",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "CONP_status",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Canadian"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
       "category": "Raw data url",
       "values": [
         {
+          "@type": "Annotation",
           "value": "https://www.ebi.ac.uk/ega/datasets/EGAD00001001284"
         }
       ]
@@ -636,6 +817,7 @@
       "category": "IHEC Data portal url",
       "values": [
         {
+          "@type": "Annotation",
           "value": "https://epigenomesportal.ca/ihec/"
         }
       ]
@@ -645,6 +827,7 @@
       "category": "contact",
       "values": [
         {
+          "@type": "Annotation",
           "value": "info@epigenomesportal.ca"
         }
       ]
