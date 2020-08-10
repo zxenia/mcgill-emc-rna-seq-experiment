@@ -26,7 +26,6 @@
   "version": "1.0",
   "isAbout": [
     {
-      "@type": "TaxonomicInformation",
       "name": "Homo sapiens",
       "identifier": {
         "identifier": "9606",
@@ -60,7 +59,6 @@
       ]
     },
     {
-      "@type": "Disease",
       "name": "Healthy",
       "diseaseStatus": {
         "value": "C115935",
@@ -68,11 +66,9 @@
       }
     },
     {
-      "@type": "MolecularEntity",
       "name": "total RNA",
       "characteristics": [
         {
-          "@type": "Material",
           "name": "Brodmann (1909) area 11",
           "identifier": {
             "identifier": "UBERON:0013528",
@@ -80,7 +76,6 @@
           },
           "derivesFrom": [
             {
-              "@type": "Material",
               "name": "brain",
               "identifier": {
                 "identifier": "UBERON:0000955",
@@ -589,6 +584,38 @@
       "values": [
         {
           "value": "info@epigenomesportal.ca"
+        }
+      ]
+    },
+    {
+      "category": "origin_institution",
+      "values": [
+        {
+          "value": "McGill EMC"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "category": "origin_province",
+      "values": [
+        {
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Canada"
         }
       ]
     }

@@ -831,6 +831,46 @@
           "value": "info@epigenomesportal.ca"
         }
       ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_institution",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "McGill EMC"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_city",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Montreal"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_province",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Quebec"
+        }
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "category": "origin_country",
+      "values": [
+        {
+          "@type": "Annotation",
+          "value": "Canada"
+        }
+      ]
     }
   ]
 }
