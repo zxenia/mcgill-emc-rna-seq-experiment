@@ -192,6 +192,38 @@
               "value": "Canadian"
             }
           ]
+        },
+        {
+          "category": "origin_institution",
+          "values": [
+            {
+              "value": "McGill EMC"
+            }
+          ]
+        },
+        {
+          "category": "origin_city",
+          "values": [
+            {
+              "value": "Montreal"
+            }
+          ]
+        },
+        {
+          "category": "origin_province",
+          "values": [
+            {
+              "value": "Quebec"
+            }
+          ]
+        },
+        {
+          "category": "origin_country",
+          "values": [
+            {
+              "value": "Canada"
+            }
+          ]
         }
       ]
     },
@@ -269,6 +301,38 @@
           "values": [
             {
               "value": "Canadian"
+            }
+          ]
+        },
+        {
+          "category": "origin_institution",
+          "values": [
+            {
+              "value": "McGill EMC"
+            }
+          ]
+        },
+        {
+          "category": "origin_city",
+          "values": [
+            {
+              "value": "Montreal"
+            }
+          ]
+        },
+        {
+          "category": "origin_province",
+          "values": [
+            {
+              "value": "Quebec"
+            }
+          ]
+        },
+        {
+          "category": "origin_country",
+          "values": [
+            {
+              "value": "Canada"
             }
           ]
         }
