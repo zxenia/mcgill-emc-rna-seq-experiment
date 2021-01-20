@@ -90,7 +90,7 @@
   "distributions": [
     {
       "formats": [
-        "BigWig"
+        "bigWig"
       ],
       "size": 457,
       "unit": {
