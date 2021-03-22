@@ -17,9 +17,11 @@
   "types": [
     {
       "information": {
-        "value": "Epigenomics",
-        "valueIRI": "http://uri.neuinfo.org/nif/nifstd/nlx_151797"
-      }
+        "value": "epigenomics",
+        "identifier": {
+          "identifier": "ilx_103885",
+          "identifierSourc":"http://uri.interlex.org/base/ilx_0103885"
+          }
     }
   ],
   "privacy": "open",
