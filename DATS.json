@@ -18,10 +18,7 @@
     {
       "information": {
        	"value": "epigenomics",
-        "identifier": {
-        	  "identifier": "ilx_103885",
-        	  "identifierSourc":"http://uri.interlex.org/base/ilx_0103885"
-         }
+        "valueIRI": "http://uri.interlex.org/base/ilx_0103885"
       }
     }
   ],
