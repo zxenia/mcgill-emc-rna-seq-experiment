@@ -17,19 +17,19 @@
   "types": [
     {
       "information": {
-        "value": "Epigenomics",
-        "valueIRI": "http://uri.neuinfo.org/nif/nifstd/nlx_151797"
+       	"value": "epigenomics",
+        "valueIRI": "http://uri.interlex.org/base/ilx_0103885"
       }
     }
   ],
-  "privacy": "Open Access",
+  "privacy": "open",
   "version": "1.0",
   "isAbout": [
     {
       "name": "Homo sapiens",
       "identifier": {
-        "identifier": "9606",
-        "identifierSource": "https://www.ncbi.nlm.nih.gov/taxonomy/9606"
+        "identifier": "https://www.ncbi.nlm.nih.gov/taxonomy/9606",
+		"identifierSource": "NCBI Taxonomy Database"
       },
       "extraProperties": [
         {
@@ -71,15 +71,13 @@
         {
           "name": "Brodmann (1909) area 11",
           "identifier": {
-            "identifier": "UBERON:0013528",
-            "identifierSource": "http://purl.obolibrary.org/obo/UBERON_0013528"
+            "identifier": "http://purl.obolibrary.org/obo/UBERON_0013528"
           },
           "derivesFrom": [
             {
               "name": "brain",
               "identifier": {
-                "identifier": "UBERON:0000955",
-                "identifierSource": "http://purl.obolibrary.org/obo/UBERON_0000955"
+                "identifier": "http://purl.obolibrary.org/obo/UBERON_0000955"
               }
             }
           ]
@@ -342,8 +340,7 @@
   "producedBy": {
     "name": "RNA-seq",
     "identifier": {
-      "identifier": "OBI:0001271",
-      "identifierSource": "http://purl.obolibrary.org/obo/OBI_0001271"
+      "identifier": "http://purl.obolibrary.org/obo/OBI_0001271"
     },
     "uses": [
       {
